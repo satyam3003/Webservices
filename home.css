@@ -3,10 +3,6 @@ body, html {
     position: relative;
 }
 
-body {
-    background-color: red;
-}
-
 .nav-pos {
     background-color: none;
 }
@@ -86,7 +82,7 @@ body {
     display: block;
     object-fit: cover;
     overflow: hidden;
-    transition: transform 400ms ease-out;
+    transition: transform 2s ease-out;
 
 }
 
@@ -422,4 +418,3 @@ footer a:hover {
 .foot-links {
     line-height: 1.5;
 }
-
