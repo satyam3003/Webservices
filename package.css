@@ -1,0 +1,125 @@
+
+.top_img_package {
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/package_backg.jpg");
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.top_text_package {
+    position: relative;
+    top: 40vh;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.ml15 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+}
+
+@media (max-width: 600px) {
+    .top_text_package {
+        top: 30vh;
+    }
+
+    .ml15 {
+        font-size: 2.5em;
+    }
+}
+
+.plans{
+    text-align: center;
+    padding: 70px 0;
+}
+
+.plan-card {
+    text-align: left;
+    margin: 10px 30px;
+    border: black 1px solid;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 600px) {
+    .plan-card{
+        margin: 2px;
+    }
+}
+
+.plan-card:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px 2px #000000;
+}
+
+.plans h2{
+    font-weight: 900;
+}
+
+.plan-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 150px;
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.tp-1 {
+    background-image: url("images/pt-1.jpg");
+}
+.tp-2 {
+    background-image: url("images/tp-2.jpg");
+}
+.tp-3 {
+    background-image: url("images/tp-3.jpg");
+}
+
+.plan-main {
+    padding: 20px;
+}
+
+.small-text{
+    font-size: 20px;
+}
+
+.plan-main h4{
+    font-weight: 700;
+}
+
+.button_plan {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #ff3e3e;
+    color: #e5e5e5;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px #b3b3b387;
+    transition: box-shadow 1s, color 1s, border 1s;
+    border: 1px solid transparent;
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+.button_plan:hover {
+    box-shadow: inset 400px 0 0px 0px #ff1414;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+.plan-card hr{
+    border: none;
+    padding: 2px;
+    background-color: black;
+}
